@@ -1,0 +1,22 @@
+body{
+    align-items: "center";
+    background: linear-gradient(450deg,#1E90FF,#9400D3,#00FA9A);
+}
+.button {
+    width: 170px; /* Замените 200px на желаемую ширину */
+    height: 45px; /* Замените 50px на желаемую высоту */
+    background: linear-gradient(450deg,blue,green)
+}
+
+.screen{
+    width: 510px;
+    height: 45px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    direction: rtl
+}
+.button-clear{
+    width: 170px; /* Замените 200px на желаемую ширину */
+    height: 50px; /* Замените 50px на желаемую высоту */
+    background: red
+}
