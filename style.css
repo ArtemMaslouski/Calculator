@@ -1,22 +1,28 @@
 body{
     align-items: "center";
     background: linear-gradient(450deg,#1E90FF,#9400D3,#00FA9A);
+    display: flex;
+    height: inherit;
+    font-display: swap;
+    justify-content: center;
 }
 .button {
-    width: 170px; /* Замените 200px на желаемую ширину */
-    height: 45px; /* Замените 50px на желаемую высоту */
+    
     background: linear-gradient(450deg,blue,green)
 }
 
 .screen{
-    width: 510px;
-    height: 45px;
-    font-family:'Times New Roman', Times, serif;
-    font-size:30px;
-    direction: rtl
+    
+    direction: rtl;
 }
 .button-clear{
-    width: 170px; /* Замените 200px на желаемую ширину */
-    height: 50px; /* Замените 50px на желаемую высоту */
     background: red
+}
+
+.wrapper{
+    background: rgba(255,255,255,0.3);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+    color:#232323;
 }
