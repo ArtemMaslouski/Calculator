@@ -1,28 +1,92 @@
 body{
-    align-items: "center";
-    background: linear-gradient(450deg,#1E90FF,#9400D3,#00FA9A);
-    display: flex;
-    height: inherit;
-    font-display: swap;
-    justify-content: center;
-}
-.button {
+    background: linear-gradient(450deg,#B0E0E6,#90EE90);
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 350px;
     
-    background: linear-gradient(450deg,blue,green)
-}
-
-.screen{
     
-    direction: rtl;
-}
-.button-clear{
-    background: red
+    
 }
 
 .wrapper{
-    background: rgba(255,255,255,0.3);
+    background: rgba(250, 235, 215,.3);
+    border-radius: 5px;
     border: 1px solid rgba(255,255,255,0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
-    color:#232323;
+    box-shadow: 4px 4px 10px ;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    width: 700px;
+    height: 400px;
 }
+
+.button{
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
+    
+}
+
+#screen{
+    color: black;
+    background: #90BFEE;
+    font-size: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 55px;
+    direction: rtl;
+}
+
+#removeButton{
+    width: 24%;
+    height: 60px;
+    color: black;
+    background-color: #EE90EE;
+}
+
+#divisionButton{
+    width: 24%;
+    height: 60px;
+    color: black;
+    background-color: #EE90EE;
+}
+
+#clearButton{
+    width: 24%;
+    height: 60px;
+    color: black;
+    background-color: #EE90EE;
+}
+
+ #equalButton{
+    background-color: rgb(135, 206, 250,0.9);
+    background: #EE90EE;
+    color: black;
+}
+
+#multiplyButton{
+    color: black;
+    background-color: #EE90EE;
+}
+
+#substractButton{
+    color: black;
+    background-color: #EE90EE;
+}
+
+#plusButton{
+    color: black;
+    background-color: #EE90EE;
+}
+ @font-face{
+    font-family: "myPersonalFont";
+    src:url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ }
+
+ 
