@@ -48,6 +48,15 @@ body{
     height: 60px;
     color: black;
     background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
 #divisionButton{
@@ -55,6 +64,15 @@ body{
     height: 60px;
     color: black;
     background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
 #clearButton{
@@ -62,27 +80,72 @@ body{
     height: 60px;
     color: black;
     background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
  #equalButton{
     background-color: rgb(135, 206, 250,0.9);
     background: #EE90EE;
     color: black;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
 #multiplyButton{
     color: black;
     background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
 #substractButton{
     color: black;
     background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
 
 #plusButton{
     color: black;
     background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
 }
  @font-face{
     font-family: "myPersonalFont";
