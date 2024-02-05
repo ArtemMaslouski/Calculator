@@ -6,6 +6,7 @@ let sign = "";
 let result = 0;
 
 
+
 button.forEach(function(button){
     button.addEventListener("mouseenter",function(e){
         e.target.style.backgroundColor = "red";
@@ -41,7 +42,7 @@ button.forEach(function(button){
 let divisionButton = document.getElementById("divisionButton");
 divisionButton.addEventListener("click",function(e){
     firstNumber = screen.innerText;
-    firstNumber = parseInt(firstNumber);
+    firstNumber = parseFloat(firstNumber);
     screen.innerText = "";
     sign = "/";
 });
@@ -84,7 +85,7 @@ plusButton.addEventListener("mouseleave",function(e){
 
 plusButton.addEventListener("click",function(){
     firstNumber = screen.innerText;
-    firstNumber = parseInt(firstNumber);
+    firstNumber = parseFloat(firstNumber);
     screen.innerText = "";
     sign = "+";
 });
@@ -100,7 +101,7 @@ minusButton.addEventListener("mouseleave",function(e){
 })
 minusButton.addEventListener("click",function(){
     firstNumber = screen.innerText;
-    firstNumber = parseInt(firstNumber);
+    firstNumber = parseFloat(firstNumber);
     screen.innerText = "";
     sign = "-";
 });
@@ -112,12 +113,27 @@ multiplyButton.addEventListener("mouseenter",function(e){
 });
 multiplyButton.addEventListener("mouseleave",function(e){
     e.target.style.background = "violet";
-})
+});
 multiplyButton.addEventListener("click",function(){
     firstNumber = screen.innerText;
-    firstNumber = parseInt(firstNumber);
+    firstNumber = parseFloat(firstNumber);
     screen.innerText = "";
     sign = "x";
+});
+
+
+//Кнопка +/-
+let adsButton = document.getElementById("adsButton");
+adsButton.addEventListener("mouseenter",function(e){
+    e.target.style.background = "red"
+});
+
+adsButton.addEventListener("mouseleave",function(e){
+    e.target.style.background = "violet";
+})
+adsButton.addEventListener("click",function(){
+    
+    
 })
 
 
@@ -133,7 +149,7 @@ equalButton.addEventListener("mouseleave",function(e){
 })
 equalButton.addEventListener("click",function(){
     secondNumber = screen.innerText;
-    secondNumber = parseInt(secondNumber);
+    secondNumber = parseFloat(secondNumber);
 
     switch(sign){
         case "+":
@@ -150,8 +166,18 @@ equalButton.addEventListener("click",function(){
             break;
         case "/":
             result = firstNumber / secondNumber;
-            screen.innerText = result;
-
+            
+            if(result === Infinity){
+                screen.innerHTML = "Деление на ноль невозможно";
+            }
+            else{
+                screen.innerText = result;
+            }
+            break;
     }
 });
+
+function changeSign(num){
+    return -num;
+}
 

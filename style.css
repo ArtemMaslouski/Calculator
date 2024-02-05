@@ -41,6 +41,7 @@ body{
     border: 2px solid black;
     height: 55px;
     direction: rtl;
+    
 }
 
 #removeButton{
@@ -135,6 +136,20 @@ body{
 }
 
 #plusButton{
+    color: black;
+    background-color: #EE90EE;
+    border-radius: 100px;
+    background-color: #EE90EE;
+    color: black;
+    font-family: "myPersonalFont" ;
+    font-weight: 100;
+    font-size: 40px;
+    width: 24%;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+#adsButton{
     color: black;
     background-color: #EE90EE;
     border-radius: 100px;
